@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+.divgeneral{
+    max-width: 1180px;
+    margin: 0 auto;
+}
