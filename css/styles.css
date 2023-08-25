@@ -46,6 +46,7 @@ body{
     width: 180px;
     color: white;
     background-color: #666;
+    font-family: 'Lato', sans-serif;
 }
 .principal{
     display: flex;
@@ -57,7 +58,14 @@ article{
     border: blue dashed;
     width: 380px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+}
+article h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.specialarticle{
+    margin: 30px 0 30px 0;
 }
 
 article img{
