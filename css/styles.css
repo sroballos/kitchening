@@ -16,6 +16,9 @@ body{
     justify-content: flex-end;
     list-style: none;
 }
+.loginli{
+    margin-right: 20px;
+}
 .logoh{
     display: flex;
     justify-content: center;
@@ -43,7 +46,6 @@ body{
     width: 180px;
     color: white;
     background-color: #666;
-    border: purple 5px dashed;
 }
 .principal{
     display: flex;
@@ -58,3 +60,16 @@ article{
     margin-bottom: 30px;
 }
 
+article img{
+    width: 100%;
+}
+
+.seemore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+    width: 80px;
+    height: 35px;
+    color: white;
+}
