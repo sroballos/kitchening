@@ -30,7 +30,6 @@ body{
 }
 .bannerphoto{
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .navig ul {
@@ -55,7 +54,6 @@ body{
 }
 article{
     display: flex;
-    border: blue dashed;
     width: 380px;
     flex-wrap: wrap;
     font-family: 'Lato', sans-serif;
@@ -76,8 +74,33 @@ article img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #666;
+    background-color: #444;
     width: 80px;
     height: 35px;
     color: white;
+}
+.navig2{
+    background-color: rgb(200,0,0);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 70px;
+}
+.navig2 ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.links2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 120px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.barrier{
+    color: white;
+    font-size: 20px;
 }
