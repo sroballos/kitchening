@@ -9,7 +9,6 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: red dashed;
 }
 .login{
     display: flex;
